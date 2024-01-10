@@ -6,17 +6,27 @@ import { AppComponent } from './app.component';
 import { TimerComponent } from './timer/timer.component';
 import { UsersComponent } from './users/users.component';
 import { LoginComponent } from './login/login.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './Header/header.component';
+import { ReceipeComponent } from './receipe/receipe.component';
+import { ReceipeListComponent } from './receipe/receipe-list/receipe-list.component';
+import { ShoppingComponent } from './shopping/shopping.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TimerComponent,
     UsersComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent,
+    ReceipeComponent,
+    ReceipeListComponent,
+    ShoppingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
