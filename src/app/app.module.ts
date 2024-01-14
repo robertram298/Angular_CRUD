@@ -11,6 +11,9 @@ import { HeaderComponent } from './Header/header.component';
 import { ReceipeComponent } from './receipe/receipe.component';
 import { ReceipeListComponent } from './receipe/receipe-list/receipe-list.component';
 import { ShoppingComponent } from './shopping/shopping.component';
+import { ReceipeDetailComponent } from './receipe/receipe-detail/receipe-detail.component';
+import { ReceipeItemComponent } from './receipe/receipe-list/receipe-item/receipe-item.component';
+import { ShoppingListEditComponent } from './shopping/shopping-list-edit/shopping-list-edit.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ShoppingComponent } from './shopping/shopping.component';
     HeaderComponent,
     ReceipeComponent,
     ReceipeListComponent,
-    ShoppingComponent
+    ShoppingComponent,
+    ReceipeDetailComponent,
+    ReceipeItemComponent,
+    ShoppingListEditComponent
   ],
   imports: [
     BrowserModule,
